@@ -43,7 +43,7 @@ const Home = () => {
         const fetchPosts = async () => {
             try {
                 setIsLoading(true)
-                const response = await fetch('http://localhost:8000/api/posts', {
+                const response = await fetch('https://dall-e-vbc5.onrender.com/api/posts', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
